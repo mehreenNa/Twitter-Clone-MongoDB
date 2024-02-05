@@ -1,11 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/WaxloQed)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12844980&assignment_repo_type=AssignmentRepo)
-# CMPUT 291 Project 2 - Fall 2023  
-Group member names and ccids (3-4 members)  
-  hfmohamm, Hassan Mohammed  
-  bshan1, Nick Shan
-  rkhadri, Reyhan Khadri
-  mnaseer, Mehreen Naseer
+This project is a Python-based Twitter-like application that enables users to create accounts, log in, compose tweets, retweet, search for tweets and users, follow other users, and view their list of followers. Unlike traditional implementations that might use SQLite, this application leverages MongoDB for data storage, offering a robust and scalable database management system that excels in handling large volumes of user data and tweets efficiently.
 
-# Names of anyone you have collaborated with (as much as it is allowed within the course policy) or a line saying that you did not collaborate with anyone else.  
-We did not collaborate with anyone else
+**Features:**
+- User authentication, including login and sign-up functionalities.
+- Ability to compose and post tweets, with hashtag support for enhanced discoverability.
+- Advanced search capabilities for tweets using keywords or hashtags.
+- User search functionality by name or city, facilitating community connections.
+- Features to view and follow users, as well as to list one's followers to monitor community engagement.
+- Retweeting functionality to share and amplify content within the network.
+- Detailed tweet displays, showcasing retweet counts and reply statistics for interactive engagement.
+
+**Prerequisites:**
+Before starting, ensure you meet the following requirements:
+- Python 3.x installed on your system, providing the necessary runtime for the application.
+- MongoDB installed and configured, serving as the application's backend database system for efficient data management and storage.
